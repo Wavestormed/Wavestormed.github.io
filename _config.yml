@@ -1,0 +1,5 @@
+name: Jordan Kegler
+markdown: kramdown
+permalink: /work/:title
+gems:
+    - jekyll-sitemap
