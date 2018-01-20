@@ -69,6 +69,23 @@ body
   padding-bottom: 2em;
 }
 
+a, a:visited, a:focus
+{
+  color: #FF00A4;
+  text-decoration: none;
+  transition: .15s;
+}
+
+a:hover
+{
+  color: #68FFFF;
+}
+
+a img
+{
+  border: 0;
+}
+
 @media (max-width: 800px)
 {
   .logo
