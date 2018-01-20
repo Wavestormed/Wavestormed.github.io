@@ -41,7 +41,7 @@ body
 
 .logo
 {
-  background-image: url("/assets/images/logo.png");
+  content: url("/assets/images/logo.png");
   width: 50%;
   height: auto;
   position: absolute;
@@ -64,7 +64,7 @@ body
 {
   .logo
   {
-    background-image: url("/assets/images/mlogo.png");
+    content: url("/assets/images/mlogo.png");
     width: 50%;
     height: auto;
     position: absolute;
