@@ -52,6 +52,7 @@ ul
 	margin-top: 0;
   margin-bottom: 0;
   height: calc(100vh);
+  background-position: center;
 	padding: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
