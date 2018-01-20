@@ -50,8 +50,8 @@ body
 .arrow
 {
   content: url("/assets/images/arrow.png");
-  width: 50%;
-  height: auto;
+  width: auto;
+  height: 25%;
   position: absolute;
   bottom: 0;
 }
