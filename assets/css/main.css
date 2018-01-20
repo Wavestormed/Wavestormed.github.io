@@ -69,6 +69,13 @@ body
   padding-bottom: 2em;
 }
 
+.content ul
+{
+  margin-bottom: 0px;
+	margin-top: 0px;
+  font-size: 1.5em;
+}
+
 a, a:visited, a:focus
 {
   color: #FF00A4;
