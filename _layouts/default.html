@@ -5,17 +5,19 @@ layout: meta
 <body>
 
 		<div style="background-image:url(/assets/images/header.png);" class="cover">
-			<img src="/assets/images/logo.png" alt="Jordan Kegler" style="width: 50%; height: auto;">
+			<img src="/assets/images/logo.png" alt="Jordan Kegler" style="width: 50%; height: auto; position: absolute;">
 		</div>
 		{% if page.url == "/index.html" %}
-	{% endif %}
+		{% endif %}
+	</div>
 
 	{{ content }}
 
 	<div class="container">
 		<footer>
 			<ul>
-				Copyright © 2018 Jordan Kegler, all rights reserved. Website created by <a href="http://yukonw.com/">Yukon Wainczak</a>.
+				Copyright © 2018 Jordan Kegler, all rights reserved.
+				Website created by <a href="http://yukonw.com/">Yukon Wainczak</a>.
 			</ul>
 		</footer>
 	</div>
