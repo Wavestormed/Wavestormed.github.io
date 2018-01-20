@@ -3,19 +3,13 @@ layout: meta
 ---
 
 <body>
-	<div style="background-image:url(/assets/images/header.png);" class="banner">
-		<div class="header">
-			<h1>
-				Jordan Kegler
-			</h1>
+	{% if page.url == "/index.html" %}
+		<div style="background-image:url(/assets/images/header.png);" class="banner">
+			<div class="container">
+				<img src="/assets/images/header.png" alt="Jordan Kegler">
+			</div>
 		</div>
-		<div class="navigation">
-			<ul>
-				<li><a href="/">Work</a></li>
-				<li><a href="/about.html">About</a></li>
-			</ul>
-		</div>
-	</div>
+	{% endif %}
 
 	{{ content }}
 
