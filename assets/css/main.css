@@ -42,7 +42,6 @@ body
 .logo
 {
   background-image: url("/assets/images/logo.png");
-
   width: 50%;
   height: auto;
   position: absolute;
@@ -59,4 +58,15 @@ body
 	padding: 1em;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+@media (max-width: 800px)
+{
+  .logo
+  {
+    background-image: url("/assets/images/mlogo.png");
+    width: 50%;
+    height: auto;
+    position: absolute;
+  }
 }
