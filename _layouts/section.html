@@ -5,7 +5,7 @@ layout: default
 {% assign loopindex = 0 %}
 {% assign loopfirst = false %}
 {% for post in site.posts %}
-	{% if post.section contains page.title %}
+	{% if post.section contains page.key %}
 			<div class="threecol">
 				<div class="square">
 					<div class="icon">
