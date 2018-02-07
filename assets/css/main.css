@@ -60,11 +60,9 @@ body
 {
 	position: relative;
 	overflow: auto;
-	margin: 1em auto;
-	margin-top: 0;
-  margin-bottom: 0;
+	margin: 0;
 	max-width: 50em;
-	padding: 1em;
+	padding: 1em auto;
   padding-top: 2em;
   padding-bottom: 2em;
 }
