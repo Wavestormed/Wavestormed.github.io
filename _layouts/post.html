@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container">
+<div>
 	<div class="twocol">
 		<h2>{{ page.title }}</h2>
 	</div>
@@ -11,12 +11,13 @@ layout: default
 		<h3>{{ page.section }}</h3>
 	</div>
 </div>
-<div class="container">
+
+<div>
 	<hr>
 	{{ content }}
 </div>
 
-<div class="container">
+<div>
 	{% for images in page.images %}
 		<img style="max-width: 100%;" src = {{ images }}>
 	{% endfor %}
