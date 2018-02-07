@@ -205,7 +205,6 @@ a img
 
   .twocol {
 		width: 100%;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    padding: 0em;
 	}
 }
