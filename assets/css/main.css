@@ -61,9 +61,7 @@ body
 	position: relative;
 	overflow: auto;
 	margin: 0;
-	padding: 1em auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
+	padding: 2em;
 }
 
 .content ul
