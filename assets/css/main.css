@@ -54,6 +54,14 @@ body
   padding-left: 0;
 }
 
+.twocol {
+	width: 50%;
+	overflow: auto;
+	float: left;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 .threecol {
 	width: 33%;
   height: width;

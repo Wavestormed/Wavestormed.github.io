@@ -3,16 +3,21 @@ layout: default
 ---
 
 <div class="container">
-	<div>
+	<div class="twocol">
 		<h2>{{ page.title }}</h2>
+	</div>
+	<div class="twocol">
 		<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
 		<h3>{{ page.section }}</h3>
-		<hr>
-
-		{{ content }}
-
 	</div>
-	
+</div>
+
+<div class="container">
+	<hr>
+	{{ content }}
+</div>
+
+<div class="container">
 	{% for images in page.images %}
 		<img style="max-width: 100%;" src = {{ images }}>
 	{% endfor %}
