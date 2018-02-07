@@ -64,6 +64,15 @@ body
   padding-bottom: 2em;
 }
 
+.navigation ul, footer ul
+{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
 .content ul
 {
   margin-bottom: 0px;
