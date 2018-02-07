@@ -47,15 +47,6 @@ body
   position: absolute;
 }
 
-.arrow
-{
-  content: url("/assets/images/arrow.png");
-  width: auto;
-  height: 25%;
-  position: absolute;
-  bottom: 0;
-}
-
 .container
 {
 	position: relative;
