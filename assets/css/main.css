@@ -56,6 +56,7 @@ body
 
 .threecol {
 	width: 33%;
+  height: width;
 	overflow: auto;
     float: left;
 }
