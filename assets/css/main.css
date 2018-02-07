@@ -35,7 +35,7 @@ body
 
 .header
 {
-  width: 60%;
+  width: 50%;
   overflow: hidden;
   position: relative;
   float: left;
@@ -44,7 +44,7 @@ body
 
 .navigation
 {
-  width: 40%;
+  width: 50%;
   overflow: hidden;
 	text-align: right;
   position: absolute;
@@ -59,7 +59,7 @@ body
 	position: relative;
 	overflow: auto;
 	margin: 0;
-	padding: 8em;
+	padding: 6em;
   padding-top: 2em;
   padding-bottom: 2em;
 }
