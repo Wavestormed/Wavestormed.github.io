@@ -53,8 +53,8 @@ body
 	width: 50%;
 	overflow: auto;
 	float: left;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .threecol {
