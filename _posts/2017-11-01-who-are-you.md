@@ -2,6 +2,7 @@
 layout: post
 title: "Who are you?"
 date: 2017-11-01
+section: "Digital"
 images:
  - "/assets/work/003_who_are_you/1.png"
 ---
