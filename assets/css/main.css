@@ -28,17 +28,30 @@ body
 	position: relative;
 	overflow: auto;
 	margin: 0em;
-  
+
   background-position: center;
 	padding: 0em;
 }
 
-.logo
+.header
 {
-  content: url("/assets/images/logo.png");
-  width: 50%;
-  height: auto;
+  width: 60%;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  padding-right: 2em;
+}
+
+.navigation
+{
+  width: 40%;
+  overflow: hidden;
+	text-align: right;
   position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: inherit;
+  padding-left: 0;
 }
 
 .container
@@ -125,4 +138,19 @@ a img
   {
   	padding: 2em;
   }
+
+  .header
+  {
+		width: 100%;
+		padding-right: 0em;
+	}
+
+	.navigation
+  {
+		width: 100%;
+		text-align: left;
+		padding: 0px;
+		align-items: center;
+    position: relative;
+	}
 }
