@@ -4,11 +4,28 @@ title: Work
 ---
 
 <ul>
-  {% for post in site.posts %}
-	<a href="{{ post.url }}" title="{{ post.title }}">
-		<div style="background-image:url({{ post.images[0] }});" class="banner">
-			<div class="overlay"></div>
-		</div>
-	</a>
-  {% endfor %}
+  {% assign loopindex = 0 %}
+  	{% assign loopfirst = false %}
+  	{% for post in site.posts %}
+				<div class="threecol">
+					<div style="width: 95%; overflow: auto;">
+            <a href="{{ post.url }}" title="{{ post.title }}">
+          		<div style="background-image:url({{ post.images[0] }});" class="banner">
+          			<div class="overlay"></div>
+          		</div>
+          	</a>
+					</div>
+				</div>
+			{% assign loopindex = loopindex | plus: 1 %}
+			{% assign loopfirst = true %}
+
+  		{% assign currentloopindex = loopindex %}
+  		{% assign currentloopindex  = currentloopindex | modulo: 3 %}
+  		{% if currentloopindex == 0 and loopfirst == true %}
+  			<div style="clear: both;"></div>
+  			{% assign loopindex = 0 %}
+  			{% assign loopfirst = false %}
+  			{% assign currentloopindex = 0 %}
+  		{% endif %}
+  	{% endfor %}
 </ul>
