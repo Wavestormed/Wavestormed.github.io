@@ -77,6 +77,11 @@ body
   padding: 0px;
 }
 
+footer ul
+{
+  padding: 0px;
+}
+
 a, a:visited, a:focus
 {
   color: #FF00A4;
