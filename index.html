@@ -6,7 +6,7 @@ title: Work
 <ul>
   {% for post in site.posts %}
 	<a href="{{ post.url }}" title="{{ post.title }}">
-		<div style="background-image:url({{ post.images }});" class="banner">
+		<div style="background-image:url({{ post.images[0] }});" class="banner">
 			<div class="overlay"></div>
 		</div>
 	</a>
