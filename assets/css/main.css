@@ -59,7 +59,27 @@ body
   height: width;
 	overflow: auto;
   float: left;
-  padding-top: 100% 
+  padding: .5em;
+}
+
+.square
+{
+  position: relative;
+}
+
+.square:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+.square > .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .container

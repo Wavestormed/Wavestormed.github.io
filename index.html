@@ -8,12 +8,14 @@ title: Work
   	{% assign loopfirst = false %}
   	{% for post in site.posts %}
 				<div class="threecol">
-					<div style="padding: 1em; overflow: auto;">
-            <a href="{{ post.url }}" title="{{ post.title }}">
-          		<div style="background-image:url({{ post.images[0] }});" class="banner">
-          			<div class="overlay"></div>
-          		</div>
-          	</a>
+					<div class="square">
+            <div class="icon">
+              <a href="{{ post.url }}" title="{{ post.title }}">
+            		<div style="background-image:url({{ post.images[0] }});" class="banner">
+            			<div class="overlay"></div>
+            		</div>
+            	</a>
+            </div>
 					</div>
 				</div>
 			{% assign loopindex = loopindex | plus: 1 %}
