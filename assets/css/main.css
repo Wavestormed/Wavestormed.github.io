@@ -38,12 +38,12 @@ body
   width: 50%;
   overflow: hidden;
   position: relative;
-  float: center;
-  padding-right: 2em;
+  margin: auto;
 }
 
 .navigation
 {
+  background-color: #262626;
   position: relative;
   overflow: auto;
 	text-align: center;
