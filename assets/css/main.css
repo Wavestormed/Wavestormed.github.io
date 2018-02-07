@@ -134,6 +134,7 @@ body
 
 .banner
 {
+  height: 100%;
   display: block;
 	background-size: cover;
 	background-position: center;
