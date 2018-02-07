@@ -58,7 +58,8 @@ body
 	width: 33%;
   height: width;
 	overflow: auto;
-    float: left;
+  float: left;
+  padding-top: 100% 
 }
 
 .container
@@ -167,5 +168,9 @@ a img
 		padding: 0px;
 		align-items: center;
     position: relative;
+	}
+
+  .threecol {
+		width: 100%;
 	}
 }
