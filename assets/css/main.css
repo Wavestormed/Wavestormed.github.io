@@ -73,6 +73,12 @@ body
 	margin-top: 1em;
 }
 
+.navigation ul li, footer ul li
+{
+  display: inline;
+  margin-right: 20px;
+}
+
 .content ul
 {
   margin-bottom: 0px;
