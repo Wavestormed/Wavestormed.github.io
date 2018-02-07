@@ -38,7 +38,7 @@ body
   width: 50%;
   overflow: hidden;
   position: relative;
-  float: left;
+  float: center;
   padding-right: 2em;
 }
 
