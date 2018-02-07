@@ -44,9 +44,9 @@ body
 
 .navigation
 {
-  overflow: hidden;
+  position: relative;
+  overflow: auto;
 	text-align: center;
-  position: absolute;
 }
 
 .twocol {
