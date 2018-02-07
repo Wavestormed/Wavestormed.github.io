@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div>
+<div class="container" style="padding-left: 0em; padding-right: 0em;">
 	<div class="twocol">
 		<h2>{{ page.title }}</h2>
 	</div>
@@ -12,12 +12,12 @@ layout: default
 	</div>
 </div>
 
-<div>
+<div class="container" style="padding-left: 0em; padding-right: 0em; padding-top: 0em;">
 	<hr>
 	{{ content }}
 </div>
 
-<div>
+<div class="container" style="padding-left: 0em; padding-right: 0em; padding-top: 0em;">
 	{% for images in page.images %}
 		<img style="max-width: 100%;" src = {{ images }}>
 	{% endfor %}
