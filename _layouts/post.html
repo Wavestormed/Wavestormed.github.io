@@ -3,10 +3,6 @@ layout: default
 ---
 
 <div class="container">
-	{% for images in page.images %}
-		<img style="max-width: 100%;" src = {{ images }}>
-	{% endfor %}
-
 	<div>
 		<h2>{{ page.title }}</h2>
 		<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
@@ -16,4 +12,8 @@ layout: default
 		{{ content }}
 
 	</div>
+	
+	{% for images in page.images %}
+		<img style="max-width: 100%;" src = {{ images }}>
+	{% endfor %}
 </div>
