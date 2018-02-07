@@ -32,9 +32,7 @@ body
   margin-bottom: 0;
   height: calc(50vh);
   background-position: center;
-	padding: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+	padding: 0em;
   display: flex;
   justify-content: center;
 }
