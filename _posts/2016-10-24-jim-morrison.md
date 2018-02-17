@@ -6,5 +6,3 @@ section: "Traditional"
 images:
  - "/assets/work/005_jim_morrison/5.jpg"
 ---
-
-A portrait of Jim Morrison
